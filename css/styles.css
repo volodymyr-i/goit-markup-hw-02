@@ -3,7 +3,6 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --secondary-text-color: #000000;
 }
 
 body {
@@ -118,9 +117,7 @@ body {
 .features-title {
   font-style: 700;
   font-size: 14px;
-  line-height: 1.14;
   text-align: left;
-  vertical-align: top;
   fill: solid;
 
   color: var(--title-text-color);
@@ -156,6 +153,11 @@ body {
 .footer-contacts-link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
 }
 
 /* ПОРТФОЛИО */
